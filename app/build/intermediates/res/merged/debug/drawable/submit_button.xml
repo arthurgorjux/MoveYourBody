@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@color/submit_button_push"/>
+    <item android:state_focused="true" android:drawable="@color/submit_button_focus"/>
+    <item android:drawable="@color/submit_button"/>
+
+</selector>
+<!-- From: file:/home/agorjux/Documents/MyApplication/app/src/main/res/drawable/submit_button.xml -->

@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CreateEventActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:id="@+id/login">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                style="@style/textView"
+                android:text="@string/create_event"
+                android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+                android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+                android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"
+                android:paddingBottom="16dp"/>
+
+            <EditText
+                android:id="@+id/title_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText"
+                android:hint="@string/title_event_hint"
+                android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"/>
+
+            <EditText
+                android:id="@+id/description_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText"
+                android:hint="@string/description_event_hint"
+                android:inputType="textMultiLine|textAutoCorrect"/>
+
+            <EditText
+                android:id="@+id/date_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText"
+                android:hint="@string/event_date_hint"
+                android:onClick="showDatePicker"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/hour_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText"
+                android:hint="@string/event_hour_hint"
+                android:onClick="showTimePicker"
+                android:editable="false"/>
+
+            <EditText
+                android:id="@+id/address_street_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText"
+                android:hint="@string/event_address_street_hint"
+                android:inputType="textMultiLine|textAutoCorrect"/>
+
+            <EditText
+                android:id="@+id/address_city_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editText"
+                android:hint="@string/event_address_city_hint"
+                android:inputType="textMultiLine|textAutoCorrect"/>
+            <Spinner
+                android:id="@+id/list_sports_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/event_sport_prompt"
+                style="@style/spinner"
+                />
+            <LinearLayout
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+             >
+                <TextView
+                    android:id="@+id/nb_people_event_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Number of people"
+                    style="@style/textViewSimple"/>
+                <SeekBar
+                    android:id="@+id/nb_people_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:progress="1"
+                    android:max="14"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit_event"
+            style="@style/button.ThirdPartyLogin"
+            android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+            android:background="@drawable/submit_button"
+            android:text="@string/event_submit"
+            android:onClick="submitCreateEvent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

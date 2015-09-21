@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="login_button">#40CCCCCC</color>
+    <color name="login_button_push">#30CCCCCC</color>
+    <color name="login_button_focus">#35CCCCCC</color>
+    <color name="login_help_button_label">#E0E0E0</color>
+    <color name="login_help_button_label_push">#AAAAAA</color>
+    <color name="login_help_button_label_focus">#CCCCCC</color>
+    <color name="login_text_hint">#AAAAAA</color>
+    <color name="login_display_text">@android:color/white</color>
+    <color name="facebook_login_button">#3B5998</color>
+    <color name="facebook_login_button_push">#2E4677</color>
+    <color name="facebook_login_button_focus">#304F8B</color>
+    <color name="google_login_button">#ffe22a2c</color>
+    <color name="google_login_button_push">#ffb51c10</color>
+    <color name="google_login_button_focus">#ffbe110a</color>
+    <color name="background_app">#ff6f7981</color>
+    <color name="submit_button">#ff26c814</color>
+    <color name="submit_button_focus">#ff26c814</color>
+    <color name="submit_button_push">#ff22b212</color>
+    <color name="deconnect_button">#ffff2002</color>
+    <color name="deconnect_button_focus">#ffff2002</color>
+    <color name="deconnect_button_push">#ffcd0a07</color>
+</resources>

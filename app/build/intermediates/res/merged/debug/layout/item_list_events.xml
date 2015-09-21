@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/title_event"
+        android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"
+        style="@style/button"/>
+</LinearLayout><!-- From: file:/home/agorjux/Documents/MyApplication/app/src/main/res/layout/item_list_events.xml -->

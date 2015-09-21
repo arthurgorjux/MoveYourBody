@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/agorjux/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a64071d707eabebfe066549d6a205ce6fb1097f6.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-b0f0523cb2d705e58fef6535e4b5fdf5b69466c5.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-d0b2ea102005b7c3df0d56329019330d065ccf82.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.8/77bbfe240e437ecb396d982afa0d3bd4f9090ba7/android-async-http-1.4.8.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.8-b3b91907069c4d6871b771381bf0a70e7bce09a6.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a2bbce14ec61e3d7945ab6e4a2968fc78b2086e8.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:1-48:12
+	xmlns:android
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:3:5-39
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:5-78
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:5:22-76
+application
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:6:5-46:19
+MERGED from [com.android.support:appcompat-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:9:9-41
+	android:allowBackup
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:7:9-35
+	android:icon
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:8:9-43
+	android:theme
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.example.agorjux.myapplication.LoginActivity
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:11:9-20:20
+	android:screenOrientation
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:14:13-49
+	android:label
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:13:13-45
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:12:13-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:18:27-74
+activity#com.example.agorjux.myapplication.SignUpActivity
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:21:9-25:20
+	android:screenOrientation
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:24:13-49
+	android:label
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:22:13-76
+activity#com.example.agorjux.myapplication.BoardActivity
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:26:9-30:20
+	android:screenOrientation
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:29:13-49
+	android:label
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:28:13-45
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:27:13-75
+activity#com.example.agorjux.myapplication.CreateEventActivity
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:31:9-35:20
+	android:screenOrientation
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:33:13-45
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:32:13-81
+activity#com.example.agorjux.myapplication.OwnListEventsActivity
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:36:9-40:20
+	android:screenOrientation
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:39:13-49
+	android:label
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:37:13-83
+activity#com.example.agorjux.myapplication.ListEventsActivity
+ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:41:9-45:20
+	android:screenOrientation
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:42:13-80
+uses-sdk
+INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml

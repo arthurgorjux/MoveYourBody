@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BoardActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/textView"
+        android:text="@string/board_title"
+        android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"/>
+
+    <Button
+        android:id="@+id/create_event"
+        style="@style/button"
+        android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+        android:text="@string/create_event"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"
+        android:onClick="createEvent"/>
+
+    <Button
+        android:id="@+id/my_account"
+        style="@style/button"
+        android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+        android:text="@string/my_account"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"/>
+
+    <Button
+        android:id="@+id/look_for_events"
+        style="@style/button"
+        android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+        android:text="@string/look_for_event"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"
+        android:onClick="searchEvents"/>
+
+    <Button
+        android:id="@+id/my_event"
+        style="@style/button"
+        android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+        android:text="@string/my_events"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"
+        android:onClick="myEvents"/>
+
+    <Button
+        android:id="@+id/deconnect"
+        style="@style/button_deconnect"
+        android:layout_marginTop="@dimen/com_parse_ui_large_vertical_spacing"
+        android:text="@string/deconnect_button_label"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"
+        android:onClick="deconnect"/>
+
+</LinearLayout>

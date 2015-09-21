@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/background_app</item>
+    </style>
+
+    <style name="textView" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/login_display_text</item>
+        <item name="android:textSize">36dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="textViewSimple" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/login_display_text</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="editText" parent="@android:style/Widget.EditText">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/login_display_text</item>
+        <item name="android:textColorHint">@color/login_display_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="spinner" parent="@android:style/Widget.Spinner">
+        <item name="android:textAppearance">@color/login_display_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:checkMark">@color/login_display_text</item>
+    </style>
+
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">
+            @drawable/com_parse_ui_parse_login_button_background_selector
+        </item>
+        <item name="android:textColor">@color/login_display_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="button_deconnect" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">
+            @drawable/deconnect_button
+        </item>
+        <item name="android:textColor">@color/login_display_text</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="helpButton" parent="@android:style/Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/login_display_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="button.ThirdPartyLogin" parent="button">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">24dp</item>
+    </style>
+
+</resources>
