@@ -45,6 +45,11 @@ public class LoginActivity extends Activity {
             }
         });
 
+        SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).edit();
+        editor.putBoolean("connection", true);
+        editor.putInt("idUser", 1);
+        editor.commit(); // TODO a enlever apres les tests
+
         Boolean connection = PreferenceManager.getDefaultSharedPreferences(getApplicationContext()).getBoolean("connection", false);
 
         if(connection){

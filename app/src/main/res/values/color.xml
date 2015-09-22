@@ -21,4 +21,7 @@
     <color name="deconnect_button">#ffff2002</color>
     <color name="deconnect_button_focus">#ffff2002</color>
     <color name="deconnect_button_push">#ffcd0a07</color>
+
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="ColorPrimaryDark">#E64A19</color>
 </resources>

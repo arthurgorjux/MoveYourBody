@@ -25,6 +25,7 @@ application
 ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:6:5-46:19
 MERGED from [com.android.support:appcompat-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.markushi:circlebutton:1.1] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:9:9-41
 	android:allowBackup
@@ -95,6 +96,7 @@ uses-sdk
 INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.github.markushi:circlebutton:1.1] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:7:5-44
 	android:targetSdkVersion
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
