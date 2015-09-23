@@ -25,4 +25,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.0.0'
     compile 'com.loopj.android:android-async-http:1.4.8'
     compile 'com.github.markushi:circlebutton:1.1'
+    compile 'com.github.kikoso:SwipeableCards:1.1-RELEASE@aar'
+    compile 'com.lorentzos.swipecards:library:1.0.9@aar'
 }

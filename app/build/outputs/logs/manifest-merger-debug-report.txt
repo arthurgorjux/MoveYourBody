@@ -26,12 +26,14 @@ ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xm
 MERGED from [com.android.support:appcompat-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.github.markushi:circlebutton:1.1] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.kikoso:SwipeableCards:1.1-RELEASE] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.kikoso/SwipeableCards/1.1-RELEASE/AndroidManifest.xml:11:5-14:19
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.lorentzos.swipecards/library/1.0.9/AndroidManifest.xml:12:5-20
 	android:label
 		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:9:9-41
 	android:allowBackup
 		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:7:9-35
 	android:icon
-		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:8:9-43
+		ADDED from [com.github.kikoso:SwipeableCards:1.1-RELEASE] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.kikoso/SwipeableCards/1.1-RELEASE/AndroidManifest.xml:12:9-45
 	android:theme
 		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:10:9-40
 activity#com.example.agorjux.myapplication.LoginActivity
@@ -97,6 +99,8 @@ INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest
 MERGED from [com.android.support:appcompat-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.github.markushi:circlebutton:1.1] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:7:5-44
+MERGED from [com.github.kikoso:SwipeableCards:1.1-RELEASE] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.kikoso/SwipeableCards/1.1-RELEASE/AndroidManifest.xml:7:5-9:41
+MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.lorentzos.swipecards/library/1.0.9/AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml

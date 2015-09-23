@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/textView"
+        android:text="@string/look_for_event"
+        android:layout_marginTop="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginRight="@dimen/com_parse_ui_small_vertical_spacing"
+        android:layout_marginLeft="@dimen/com_parse_ui_small_vertical_spacing"/>
+
+    <!--<com.andtinder.view.CardContainer
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />-->
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rotation_degrees="16"
+        app:max_visible="4"
+        app:min_adapter_stack="6" />
+
+    <include layout="@layout/buttons" />
+
+</LinearLayout>
