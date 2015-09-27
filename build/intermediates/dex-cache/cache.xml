@@ -9,11 +9,32 @@
         <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-a64071d707eabebfe066549d6a205ce6fb1097f6.jar" />
     </item>
     <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a2bbce14ec61e3d7945ab6e4a2968fc78b2086e8.jar" />
+    </item>
+    <item
         jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.lorentzos.swipecards/library/1.0.9/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="5448a69da935ad4e5a298423099c83818253d8d6">
         <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-08dc76f05fea46275e384e6dc28074713aa3fc28.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-29249262ee6844e691a21cb73388d6bdd3ccf1bf.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/library-2.4.0-0937eff7aa88be55c7472d784c0955a9db813ffa.jar" />
     </item>
     <item
         jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.kikoso/SwipeableCards/1.1-RELEASE/jars/classes.jar"
@@ -30,11 +51,11 @@
         <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-d0b2ea102005b7c3df0d56329019330d065ccf82.jar" />
     </item>
     <item
-        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a2bbce14ec61e3d7945ab6e4a2968fc78b2086e8.jar" />
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-72d583034622e82b310c6f5ee0c12ee80086ac94.jar" />
     </item>
     <item
         jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
@@ -56,6 +77,34 @@
         revision="22.0.1"
         sha1="ebe3b1f14fa79ba3cd1588acda4e6517ee9fe611">
         <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-1dc2b21b5b0aac724f57ca61f9f9ee348a0503e3.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-b284315a7f97dbb24a61276f0c884ba3e79f678f.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d2772338dc47df77740263fe45995baa29d75faf">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-12619398def413cfd7ae7762912d6c0086f10152.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-402185ae91624352af4893b780cc13ed46958fba.jar" />
+    </item>
+    <item
+        jar="/home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="/home/agorjux/Documents/MyApplication/app/build/intermediates/pre-dexed/debug/classes-de1db4702a7ce73bc6b4a357a95591be63b598c8.jar" />
     </item>
 
 </items>

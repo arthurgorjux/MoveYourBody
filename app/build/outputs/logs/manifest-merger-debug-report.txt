@@ -28,6 +28,9 @@ MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyAp
 MERGED from [com.github.markushi:circlebutton:1.1] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:9:5-20
 MERGED from [com.github.kikoso:SwipeableCards:1.1-RELEASE] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.kikoso/SwipeableCards/1.1-RELEASE/AndroidManifest.xml:11:5-14:19
 MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.lorentzos.swipecards/library/1.0.9/AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:cardview-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:recyclerview-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml:9:9-41
 	android:allowBackup
@@ -101,9 +104,22 @@ MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyAp
 MERGED from [com.github.markushi:circlebutton:1.1] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.markushi/circlebutton/1.1/AndroidManifest.xml:7:5-44
 MERGED from [com.github.kikoso:SwipeableCards:1.1-RELEASE] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.github.kikoso/SwipeableCards/1.1-RELEASE/AndroidManifest.xml:7:5-9:41
 MERGED from [com.lorentzos.swipecards:library:1.0.9] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.lorentzos.swipecards/library/1.0.9/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:cardview-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.daimajia.swipelayout:library:1.2.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/AndroidManifest.xml:6:5-8:41
+MERGED from [jp.wasabeef:recyclerview-animators:1.3.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/jp.wasabeef/recyclerview-animators/1.3.0/AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.easing:library:1.0.1] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.daimajia.easing/library/1.0.1/AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:1.1.3] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.daimajia.androidanimations/library/1.1.3/AndroidManifest.xml:8:5-10:41
 	android:targetSdkVersion
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /home/agorjux/Documents/MyApplication/app/src/main/AndroidManifest.xml
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/AndroidManifest.xml:23:9-25:56
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/AndroidManifest.xml:25:13-53
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:22.0.0] /home/agorjux/Documents/MyApplication/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/AndroidManifest.xml:24:13-66
